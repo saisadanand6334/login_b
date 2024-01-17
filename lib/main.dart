@@ -22,7 +22,7 @@ class _LoginState extends State<Login> {
         body: DecoratedBox(
           decoration: BoxDecoration(
               image: DecorationImage(
-            image: AssetImage('images/scr.png'),
+            image: AssetImage('images/bmi3.jpg'),
             fit: BoxFit.cover,
           )),
           child: Center(
@@ -30,7 +30,7 @@ class _LoginState extends State<Login> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CircleAvatar(
-                    radius: 101, backgroundImage: AssetImage('images/upi.jpg')),
+                    radius: 101, backgroundImage: AssetImage('images/bmi2.jpg')),
                 TextField(
                   decoration: InputDecoration(
                     label: Text(
